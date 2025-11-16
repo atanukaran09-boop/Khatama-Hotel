@@ -243,7 +243,7 @@ position: absolute !important;
 .bg-gray h2{ font-size: 24px;}
 
 .bg-gray .mb-5{
-    margin-bottom: 22px !important;
+    margin-bottom: 15px !important;
 }
 
 .bg-gray h4{font-size: 18px; font-weight: 600;}
@@ -361,7 +361,7 @@ margin: 0 0 8px 0;
   }
 
   .text-area-t {
-    padding: 0px 0 5px;
+padding: 10px 0 15px;
   }
 
 .cta_block{
