@@ -296,7 +296,15 @@ border-radius: 50%;
 }
 
 
-
+    .text-area-t p {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 0 8px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
+    }
 
 
 
@@ -335,10 +343,14 @@ border-radius: 50%;
         text-align: center;
         margin: 0 0 8px 0;
     }
-.text-area-t p {
-font-size: 15px;
-    text-align: left;
-margin: 0 0 8px 0;
+    .text-area-t p {
+        font-size: 14px;
+        text-align: center;
+        margin: 0 0 8px 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex: 1;
     }
 
     .bg-gray h2 {
