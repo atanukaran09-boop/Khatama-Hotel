@@ -289,6 +289,17 @@ border-radius: 50%;
 }
 .text-area-t p span{margin-right: 5px;}
 
+.address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
 }
 
 
@@ -321,7 +332,7 @@ border-radius: 50%;
     }
 .text-area-t h2 {
         font-size: 16px;
-        text-align: left;
+        text-align: center;
         margin: 0 0 8px 0;
     }
 .text-area-t p {
