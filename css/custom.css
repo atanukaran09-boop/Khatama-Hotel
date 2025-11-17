@@ -372,7 +372,7 @@ border-radius: 50%;
     }
 
 
-.banner_logo img{width: 80%;}
+.banner_logo img{width: 60%;}
 
 .banner_logo{
         bottom: unset;
@@ -452,7 +452,7 @@ border-radius: 50%;
 
     .banner_logo{
         bottom: unset;
-        top: -105px;
+        top: -70px;
     }
 
 
