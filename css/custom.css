@@ -133,8 +133,8 @@ a:hover {
     text-align: center;
 }
 
-
-
+.address p{font-size: 18px;}
+.address p span{ margin-right: 10px;}
 
 
 .call-to-action:hover{background: #000; color: #fff;}
