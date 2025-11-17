@@ -464,7 +464,7 @@ border-radius: 50%;
     padding: 2px 0 5px 0;
 }
 
-.mobile-call-to-action{display: block;}
+.mobile-call-to-action{display: block;float: right;}
 .cta_block_desktop{display: none;}
 
 
