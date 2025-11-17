@@ -67,7 +67,7 @@ a:hover {
     transition: all 0.2s ease-in-out 0s;
 }
 
-.tagline{display: none;}
+.tagline{}
 
 .gap_block {
     padding: 60px 0
