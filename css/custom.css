@@ -314,7 +314,7 @@ border-radius: 50%;
 .text-area-t p span{margin-right: 5px;}
 
 .address {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
 }
