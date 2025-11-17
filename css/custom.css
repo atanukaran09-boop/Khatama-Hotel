@@ -368,9 +368,10 @@ border-radius: 50%;
 
 .text-area{font-size: 14px;}
 
-.accordion-button {
-    font-size: 16px;
-}
+    .accordion-button {
+        font-size: 15px;
+        font-weight: 500;
+    }
 
   .bg-gray {
     padding: 20px 0;
@@ -415,7 +416,7 @@ border-radius: 50%;
 
 .social-icon-list a img{width: 33px;}
 
-
+.faq p{font-size: 14px;}
 
 
 
