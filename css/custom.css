@@ -68,6 +68,7 @@ a:hover {
 }
 
 .tagline{}
+.mobile-call-to-action{display: none;}
 
 .gap_block {
     padding: 60px 0
@@ -329,7 +330,8 @@ border-radius: 50%;
 .social-icon-list a img {
         width: 40px;
     }
-
+.mobile-call-to-action{display: block;}
+.cta_block_desktop{display: none;}
 
 }
 
