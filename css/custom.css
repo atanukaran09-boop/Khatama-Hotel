@@ -119,8 +119,26 @@ a:hover {
     padding: 9px 18px;
 }
 
+.cta_block_desktop{
+    text-align: right;
+    margin: 0;
+}
+
+.cta_block_desktop .call-to-action {
+    margin: 0 !important;
+}
+
+.tagline{
+    margin: 0;
+    text-align: center;
+}
+
+
+
+
+
 .call-to-action:hover{background: #000; color: #fff;}
-.bnr-cont-text{}
+
 .bnr-cont-text h1{ color: #fff;}
 .bnr-cont-text h3{
     color: #fff;
