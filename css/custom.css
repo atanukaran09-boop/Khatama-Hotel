@@ -415,7 +415,6 @@ border-radius: 50%;
   }
 
 .cta_block{
-    display: block;
     text-align: right;
     float: right;
 }
@@ -446,6 +445,9 @@ border-radius: 50%;
 .header {
     padding: 2px 0 5px 0;
 }
+
+.mobile-call-to-action{display: block;}
+.cta_block_desktop{display: none;}
 
 
 }
