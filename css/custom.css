@@ -235,12 +235,18 @@ position: absolute !important;
 .text-area-t{
     padding: 20px 0 20px;
 }
-.text-area-t h2{ font-size: 24px;}
+
+    .text-area-t h2 {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 0 8px 0;
+    }
+
 
 .bg-gray {
     padding: 30px 0;
 }
-.bg-gray h2{ font-size: 24px;}
+.bg-gray h2{ font-size: 18px;}
 
 .bg-gray .mb-5{
     margin-bottom: 15px !important;
@@ -304,6 +310,22 @@ border-radius: 50%;
         justify-content: flex-start;
         align-items: center;
         flex: 1;
+    }
+
+
+.cta_block{
+        display: block;
+        text-align: right;
+        float: right;
+    }
+
+
+.call-to-action
+      {
+        margin-right: 0 !important;
+        padding: 2px 10px;
+        font-size: 13px;
+        margin: 0 !important;
     }
 
 
