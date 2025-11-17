@@ -397,7 +397,7 @@ border-radius: 50%;
     }
 
   .bg-gray {
-    padding: 20px 0;
+    padding: 15px 0;
   }
 
 .bg-gray .mt-3 {
@@ -440,7 +440,9 @@ border-radius: 50%;
 .social-icon-list a img{width: 33px;}
 
 .faq p{font-size: 14px;}
-
+.header {
+    padding: 2px 0 5px 0;
+}
 
 
 }
