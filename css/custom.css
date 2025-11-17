@@ -303,7 +303,7 @@ position: absolute !important;
   padding: 20px 0;
 }
 .box-1 {
-  padding: 15px 15px !important;
+  padding: 10px 15px !important;
 }
 .box-1 img {
 border-radius: 50%;
@@ -387,7 +387,7 @@ border-radius: 50%;
         /* width: 46%; */
     }
 .text-area-t h2 {
-        font-size: 16px;
+        font-size: 15px;
         text-align: center;
         margin: 0 0 8px 0;
     }
