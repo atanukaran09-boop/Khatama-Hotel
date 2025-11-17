@@ -345,7 +345,7 @@ border-radius: 50%;
     }
     .text-area-t p {
         font-size: 14px;
-        text-align: center;
+        text-align: left;
         margin: 0 0 8px 0;
         display: flex;
         justify-content: flex-start;
@@ -354,7 +354,7 @@ border-radius: 50%;
     }
 
     .bg-gray h2 {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .bg-gray h4 {
@@ -413,7 +413,7 @@ border-radius: 50%;
     }
 
 
-.social-icon-list a img{width: 38px;}
+.social-icon-list a img{width: 33px;}
 
 
 
