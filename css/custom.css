@@ -351,6 +351,11 @@ border-radius: 50%;
 .mobile-call-to-action{display: block; float: right;}
 .cta_block_desktop{display: none;}
 
+.social-icon-mobile{ position: fixed;}
+
+
+
+
 }
 
 
