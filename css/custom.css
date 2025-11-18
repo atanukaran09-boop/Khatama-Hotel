@@ -228,8 +228,8 @@ border-radius: 50%;
     color: #000;
 }
 
-.pdf-download-icon{margin: 0 auto;}
-.pdf-download-icon a img{width: 10%;}
+.pdf-download-icon{margin: 30px auto;}
+.pdf-download-icon a img{width: 100%;}
 
 
 
