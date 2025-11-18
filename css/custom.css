@@ -212,8 +212,20 @@ border-radius: 50%;
 .footer p{color: #fff; text-align: center; margin: 0;}
     
 .modal-body a img{width: 100%;}
-.call_w{}
-.call_w a{ width: 100%;}
+
+.call_w {
+    width: 100%;
+    display: block;
+}
+
+.call_w a {
+    width: 100% !important;
+    display: block;
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 600;
+    color: #000;
+}
 
 @media screen and (max-width: 480px) {
 
