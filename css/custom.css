@@ -211,8 +211,9 @@ border-radius: 50%;
 .footer{background: #333; padding: 10px 0;}
 .footer p{color: #fff; text-align: center; margin: 0;}
     
-
-
+.modal-body a img{width: 100%;}
+.call_w{}
+.call_w a{ width: 100%;}
 
 @media screen and (max-width: 480px) {
 
