@@ -301,7 +301,23 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body pdf-download-icon">
-        <a href="images/Daily-Menu.pdf" target="_blank"><img src="images/download-pdf.png"></a>
+        <div class="slider">
+  <div class="slides">
+    <img src="img1.jpg" class="slide" onclick="openZoom(this.src)">
+    <img src="img2.jpg" class="slide" onclick="openZoom(this.src)">
+    <img src="img3.jpg" class="slide" onclick="openZoom(this.src)">
+  </div>
+
+  <!-- Navigation -->
+  <button class="prev" onclick="moveSlide(-1)">❮</button>
+  <button class="next" onclick="moveSlide(1)">❯</button>
+</div>
+
+<!-- Zoom Modal -->
+<div id="zoomModal" class="zoom-modal" onclick="closeZoom()">
+  <img id="zoomImg">
+</div>
+
       </div>
     </div>
   </div>
@@ -343,7 +359,28 @@
 
 
 
+<script>
+let index = 0;
 
+function moveSlide(step) {
+  const slides = document.querySelector('.slides');
+  const total = document.querySelectorAll('.slide').length;
+  
+  index = (index + step + total) % total;
+  slides.style.transform = `translateX(-${index * 100}%)`;
+}
+
+// Zoom functions
+function openZoom(src) {
+  document.getElementById("zoomImg").src = src;
+  document.getElementById("zoomModal").style.display = "flex";
+}
+
+function closeZoom() {
+  document.getElementById("zoomModal").style.display = "none";
+}
+
+</script>
 
 </body>
 
