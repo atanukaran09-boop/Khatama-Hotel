@@ -359,28 +359,7 @@
 
 
 
-<script>
-let index = 0;
 
-function moveSlide(step) {
-  const slides = document.querySelector('.slides');
-  const total = document.querySelectorAll('.slide').length;
-  
-  index = (index + step + total) % total;
-  slides.style.transform = `translateX(-${index * 100}%)`;
-}
-
-// Zoom functions
-function openZoom(src) {
-  document.getElementById("zoomImg").src = src;
-  document.getElementById("zoomModal").style.display = "flex";
-}
-
-function closeZoom() {
-  document.getElementById("zoomModal").style.display = "none";
-}
-
-</script>
 
 </body>
 
