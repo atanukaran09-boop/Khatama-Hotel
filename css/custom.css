@@ -231,7 +231,7 @@ border-radius: 50%;
 .pdf-download-icon{margin: 30px auto;}
 
 .call_w span img{width:32px;}
-
+.call_w span{margin-right: 10px;}
 
 
 @media screen and (max-width: 480px) {
